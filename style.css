@@ -1,9 +1,11 @@
 p {
-    color: greenyellow;
-    font-family: monospace;
+    color: rgb(50, 255, 47);
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 16pt;
     white-space: pre;
-    font-size: large; 
-    line-height: 0.3;
+    line-height: 0;
+    margin: 0 0 1 0;
+    padding: 0;
 }
 
 html {
@@ -13,14 +15,17 @@ html {
 .flex-container {
     display: flex;
     justify-content: center;
-    height: 100vh;
-    align-items: center;
 }
 
 .matrix {
     background-color: black;
-    width: 600px;
-    height: 600px;
     border-radius: 5%;
-    padding: 20px;
+    padding: 1.5rem;
+}
+
+@media (orientation: landscape) {
+    .flex-container {
+        align-items: center;
+        height: 100vh;
+    }
 }
