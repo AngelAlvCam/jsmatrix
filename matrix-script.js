@@ -80,7 +80,7 @@ class Matrix {
     }
 }
 
-const myMatrix = new Matrix(28, 68);
+const myMatrix = new Matrix(25,50);
 setInterval(() => {
     myMatrix.addLine();
 }, 70);
