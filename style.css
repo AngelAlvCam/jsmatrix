@@ -1,0 +1,26 @@
+p {
+    color: greenyellow;
+    font-family: monospace;
+    white-space: pre;
+    font-size: large; 
+    line-height: 0.3;
+}
+
+html {
+    background-color: gray;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.matrix {
+    background-color: black;
+    width: 600px;
+    height: 600px;
+    border-radius: 5%;
+    padding: 20px;
+}
